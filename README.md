@@ -177,5 +177,9 @@ Body:
 ## Тесты
 
 ### Чтобы запустить тесты необходимо в терминале ввести команду "go test ./... "
+Тесты:
+
+[Тесты для хендлеров](https://github.com/northerf/EcomTest/blob/main/internal/handler/handler_test.go)
 
 
+[Тесты для репозитория](https://github.com/northerf/EcomTest/blob/main/internal/repository/in-memory_test.go)
