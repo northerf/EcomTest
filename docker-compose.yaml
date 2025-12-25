@@ -1,0 +1,8 @@
+services:
+  ecom-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${ECOM_SERVICE_PORT}:${ECOM_SERVICE_PORT}"
+    restart: on-failure
